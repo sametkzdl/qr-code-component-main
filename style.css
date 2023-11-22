@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "outfit";
+    src: url(font/Outfit-VariableFont_wght.ttf);
+}
+
+:root {
+    White: hsl(0, 0%, 100%)
+    - Light gray: hsl(212, 45%, 89%)
+    - Grayish blue: hsl(220, 15%, 55%)
+    - Dark blue: hsl(218, 44%, 22%)
+}
+
+body {
+    background-color: hsl(220, 15%, 55%);
+}
+
+.ali {
+    width: 320px;
+    height: 497px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius:20px ;
+    font-family:"outfit";
+    margin:300px 300px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.ali img {
+    border-radius: 20px;
+}
+
+.veli {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 0px 16px;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin:0;
+    padding-top: 24px;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%);
+    margin:0;
+    padding-top: 16px;
+}
